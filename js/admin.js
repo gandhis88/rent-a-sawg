@@ -117,11 +117,11 @@ function newStats(statInfo){
     t2.innerHTML = statInfo.GET_statistics;
     t3.innerHTML = statInfo.POST_statistics;
     
-    console.log(statInfo);
-    
     stats.append(t1);
     stats.append(t2);
     stats.append(t3);
+
+    console.log(statInfo);
 }
 
 
