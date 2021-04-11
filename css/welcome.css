@@ -1,0 +1,101 @@
+#titlebackground {
+    background-color: #78b2f5;
+}
+
+#title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45pt;
+    position: relative;
+    left: 3%;
+    background-color: #78b2f5;
+}
+
+#hand{
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 30%; 
+    top: 35%; 
+
+}
+#welcome {
+    font-family: 'Thasadith', sans-serif;
+    font-size: 75pt;
+    text-align: center;
+}
+
+div a#loginbt{
+    text-decoration: none;
+    position: absolute;
+    left: 45%; 
+    top: 60%;
+    font-size: 22pt;
+    font-family:'Thasadith', sans-serif;
+}
+
+div a#signupbt{
+    text-decoration: none;
+    position: absolute;
+    left: 44%; 
+    top: 67%;
+    font-size: 22pt;
+    font-family:'Thasadith', sans-serif;
+
+}
+
+div a#adminbt{
+    text-decoration: none;
+    position: absolute;
+    top: 74%;
+    left: 42.5%; 
+    font-size: 22pt;
+    font-family:'Thasadith', sans-serif;
+}
+
+@media only screen and (min-width: 375px) {
+
+    #hand{
+        width: 70px;
+        height: auto;
+        position: absolute;
+        left: 10%; 
+        top: 31%; 
+    
+    }
+    #welcome {
+        font-family: 'Thasadith', sans-serif;
+        font-size: 45pt;
+        position: absolute;
+        left: 30%; 
+    }
+
+    div a#loginbt{
+        text-decoration: none;
+        position: absolute;
+        left: 40%; 
+        top: 60%;
+        font-size: 22pt;
+        font-family:'Thasadith', sans-serif;
+    }
+    
+    div a#signupbt{
+        text-decoration: none;
+        position: absolute;
+        left: 38%; 
+        top: 67%;
+        font-size: 22pt;
+        font-family:'Thasadith', sans-serif;
+    
+    }
+    
+    div a#adminbt{
+        text-decoration: none;
+        position: absolute;
+        top: 74%;
+        left: 33%; 
+        font-size: 22pt;
+        font-family:'Thasadith', sans-serif;
+    }
+
+
+}
