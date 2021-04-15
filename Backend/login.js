@@ -61,7 +61,7 @@ async function login(usernameLoginX, passwordLoginX) {
       })
       .then((res) => {
         if (passwordLoginX == res[0].passwordLogin) { 
-            window.location.href = "https://sethi.digital/COMP4537/termproject/API/V1/home.html";
+            window.location.href = "https://simrangandhi.technology/COMP4537/termproject/API/V1/listings.html";
         } else {
             window.alert("Wrong Username or Password");
         }
@@ -79,7 +79,7 @@ async function adminLogin(usernameAdmin, passwordAdmin) {
       })
       .then((res) => {
         if (passwordAdmin == res[0].passwordAdmin) { 
-            window.location.href = "https://sethi.digital/COMP4537/termproject/API/V1/admin.html";
+            window.location.href = "https://simrangandhi.technology/COMP4537/termproject/API/V1/admin.html";
         } else {
             window.alert("Wrong Username or Password");
         }
