@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="/css/login.css" />
+        <title>Rent-A-Swag</title>
+    </head>
+    <body>
+        <h1>Rent-A-Swag</h1>
+
+        <section id="authenticationForms">
+
+            <button type="button" class="btn0" onclick="showLogin()">Login</button><br>
+
+                <section id="loginSection">
+
+                    <br><br><hr>
+
+                    <input id="usernameLoginX" placeholder="Username" style="text-align: center;"> <br><br>
+                    <input id="passwordLoginX" placeholder="Password" style="text-align: center;"> <br><br>
+
+                    <button type="button" class="btn" onclick="login(document.getElementById('usernameLoginX').value, 
+                    document.getElementById('passwordLoginX').value);">Submit</button>
+
+                    <button type="button" class="btn" onclick="closeLogin()">Close</button>
+
+                    <hr>
+
+                </section>
+
+            <button type="button" class="btn0" onclick="showSignup()">Sign Up</button><br>
+
+                <section id="signupSection">
+
+                    <br><br><hr>
+
+                    <input id="usernameLogin" placeholder="Username" style="text-align: center;"> <br><br>
+                    <input id="passwordLogin" placeholder="Password" style="text-align: center;"> <br><br>
+
+                    <button type="button" class="btn" onclick="createAccount(document.getElementById('usernameLogin').value, 
+                        document.getElementById('passwordLogin').value);">Submit</button>
+
+                    <button type="button" class="btn" onclick="closeSignup()">Close</button>
+
+                    <hr>
+
+                </section>
+
+            <button type="button" class="btn0" onclick="showAdminlogin()">Admin Login</button>
+
+                <section id="adminSection">
+
+                    <br><br><hr>
+
+                    <input id="usernameAdmin" placeholder="Username" style="text-align: center;"> <br><br>
+                    <input id="passwordAdmin" placeholder="Password" style="text-align: center;"> <br><br>
+
+                    <button type="button" class="btn" onclick="adminLogin(document.getElementById('usernameAdmin').value, 
+                        document.getElementById('passwordAdmin').value);">Submit</button>
+
+                    <button type="button" class="btn" onclick="closeAdmin()">Close</button>
+
+                    <hr>
+
+                </section>
+
+        </section>
+
+        <script src="/js/login.js"></script>
+
+    </body>
+</html>

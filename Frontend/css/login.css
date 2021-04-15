@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn0 {
+    margin-top: 20px;
+    background-color: #111111;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+#authenticationForms {
+    margin-top: 10%;
+    align-content: center;
+    text-align: center;
+}
+
+#loginSection {
+    display: none;
+}
+
+#signupSection {
+    display: none;
+}
+
+#adminSection {
+    display: none;
+}
